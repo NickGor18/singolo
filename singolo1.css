@@ -1,0 +1,83 @@
+@font-face{
+    font-family: Lato;
+    src: url(assets/9622.ttf);
+}
+
+.h{
+    width: 1020px;
+    height: 95px;
+    background-color: #2d303a;
+}
+.header_name{
+    position: relative;
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: Lato;
+    font-weight: 700;
+    left: 3.9%;
+    top: 47%;
+    margin: 0%;
+}
+.star{
+    position: relative;
+    top: 15%;
+    left: 14.7%;
+    font-size: 25px;
+    line-height: 6px;
+    color: #f30b0b;
+    font-family: Lato;
+    font-weight: 700;
+}
+.nav_p{
+    position: relative;
+    left: 57%;
+    margin: 0%;
+    bottom: 23%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Lato;
+}
+.a1 {
+    margin-right: 10px;
+}
+.a2 {
+    margin-right: 10px;
+}
+.a3 {
+    margin-right: 10px;
+}
+.a4 {
+    margin-right: 10px;
+}
+.a5{
+    margin-right: 10px;
+}
+.a1:hover{
+    color: #f30b0b;
+}
+.a2:hover{
+    color: #f30b0b;
+}
+.a3:hover{
+    color: #f30b0b;
+}
+.a4:hover{
+    color: #f30b0b;
+}
+.a5:hover{
+    color: #f30b0b;
+}
+.line{
+    height: 6px;
+    background-color: #323746;
+    border: none;
+}
+.slider{
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+}
+
