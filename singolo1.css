@@ -70,14 +70,130 @@ a{
 .a5:hover{
     color: #f30b0b;
 }
-.line{
+.line1{
     height: 6px;
     background-color: #323746;
     border: none;
 }
 .slider{
     width: 1020px;
-    height: 600px;
+    height: 575px;
     background-color: #f06c64;
+}
+.i_h{
+    position: relative;
+    left: 35%;
+    top: 90px;
+}
+.i_v{
+    position: relative;
+    left: 11.07%;
+    top: -590px;
+}
+.left{
+    position: relative;
+    left: 3.9%;
+    top: -255px;
+}
+.right{
+    position: relative;
+    left: 36%;
+    top: -845px;
+}
+.right:hover{
+    background-color:#e2443c;
+}
+.left:hover{
+    background-color: #e2443c;
+}
+
+.line2{
+    height: 15px;
+    background-color: #ea676b;
+    border: none;
+    margin: 0px;
+    width: 1020px;
+}
+.serv_block{
+    width: 1020px;
+    height: 495px;
+    background-color: #f2f2f2;
+}
+.bl_h{
+    position: relative;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    top: 13%;
+    left: 3.9%;
+    margin: 0px;
+
+}
+.t_block{
+    position: relative;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    left: 3.9%;
+    top: 20%;
+    margin: 0px;
+}
+.wrapper{
+    width: 940px;
+    position: relative;
+    top: 33%;
+    left: 3.9%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(129px, auto);
+}
+.d1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.d2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.d3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.d4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.d5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.d6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.line3{
+    height: 5px;
+    background-color: white;
+    border: none;
+    margin: 0px;
+    width: 1020px;
 }
 
