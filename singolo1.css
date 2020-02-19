@@ -19,7 +19,7 @@
     top: 47%;
     margin: 0%;
 }
-.star{
+.star_h{
     position: relative;
     top: 15%;
     left: 14.7%;
@@ -83,22 +83,34 @@ a{
 .i_h{
     position: relative;
     left: 35%;
-    top: 90px;
+    top: 50px;
 }
 .i_v{
     position: relative;
     left: 11.07%;
-    top: -590px;
+    top: -630px;
 }
 .left{
     position: relative;
     left: 3.9%;
-    top: -255px;
+    top: 255px;
+    height: 30px;
+    width: 20px;
+}
+.left a{
+    display: block;
+    height: 100%;
 }
 .right{
     position: relative;
-    left: 36%;
-    top: -845px;
+    left: 94%;
+    top: -945px;
+    height: 30px;
+    width: 20px;
+}
+.right a{
+    display: block;
+    height: 100%;
 }
 .right:hover{
     background-color:#e2443c;
@@ -146,12 +158,74 @@ a{
 }
 .wrapper{
     width: 940px;
+    height: 200px;
     position: relative;
     top: 33%;
     left: 3.9%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(129px, auto);
+    grid-row: 100px;
+}
+.ellips1{
+    position: relative;
+    left: -11%;
+}
+.pen{
+    position: relative;
+    left: 4.9%;
+    padding-bottom: 3.8%;
+}
+.d1_h{
+    position: relative;
+    left: 25%;
+    top: -44%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0%;
+}
+.d1_p{
+    position: relative;
+    left: 25%;
+    top: -38%;
+    width: 219px;
+    margin: 0%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.bulb{
+    position: relative;
+    left: 5.9%;
+    padding-bottom: 3.8%;
+}
+.heart{
+    position: relative;
+    left: 4.5%;
+    padding-bottom: 3.8%;
+}
+.phone{
+    position: relative;
+    left: 5.9%;
+    padding-bottom: 3.8%;
+}
+.bubble{
+    position: relative;
+    left: 4.9%;
+    padding-bottom: 4.5%;
+}
+.star{
+    position: relative;
+    left: 4.5%;
+    padding-bottom: 4.5%;
+}
+.ellips2{
+    position: relative;
+    left: -8%;
 }
 .d1{
     grid-column-start: 1;
@@ -196,4 +270,3 @@ a{
     margin: 0px;
     width: 1020px;
 }
-
