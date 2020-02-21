@@ -2,7 +2,9 @@
     font-family: Lato;
     src: url(assets/9622.ttf);
 }
-
+body{
+    margin: 0px;
+}
 .h{
     width: 1020px;
     height: 95px;
@@ -15,14 +17,14 @@
     color: #ffffff;
     font-family: Lato;
     font-weight: 700;
-    left: 3.9%;
-    top: 47%;
+    left: 3.7%;
+    top: 45%;
     margin: 0%;
 }
 .star_h{
     position: relative;
-    top: 15%;
-    left: 14.7%;
+    top: 11%;
+    left: 14.4%;
     font-size: 25px;
     line-height: 6px;
     color: #f30b0b;
@@ -31,44 +33,28 @@
 }
 .nav_p{
     position: relative;
-    left: 57%;
+    left: 59.6%;
     margin: 0%;
     bottom: 23%;
 }
-a{
+
+.a1, .a2, .a3, .a4, .a5 {
+    
     text-decoration: none;
+    font-size: 12px;
+    line-height: 5px;
     color: #ffffff;
-    font-family: Lato;
+    font-family: "Lato";
+    font-weight: 500;
 }
-.a1 {
-    margin-right: 10px;
+.a1, .a2, .a3, .a5{
+    margin-right: 26px;
 }
-.a2 {
-    margin-right: 10px;
+.a4{
+    margin-right: 25px;
 }
-.a3 {
-    margin-right: 10px;
-}
-.a4 {
-    margin-right: 10px;
-}
-.a5{
-    margin-right: 10px;
-}
-.a1:hover{
-    color: #f30b0b;
-}
-.a2:hover{
-    color: #f30b0b;
-}
-.a3:hover{
-    color: #f30b0b;
-}
-.a4:hover{
-    color: #f30b0b;
-}
-.a5:hover{
-    color: #f30b0b;
+.a1:hover, .a2:hover, .a3:hover, .a4:hover, .a5:hover{
+    color:  #f06c64;
 }
 .line1{
     height: 6px;
@@ -77,23 +63,23 @@ a{
 }
 .slider{
     width: 1020px;
-    height: 575px;
+    height: 595px;
     background-color: #f06c64;
 }
 .i_h{
     position: relative;
-    left: 35%;
-    top: 50px;
+    left: 35.2%;
+    top: 40px;
 }
 .i_v{
     position: relative;
-    left: 11.07%;
-    top: -630px;
+    left: 10.9%;
+    top: -631px;
 }
 .left{
     position: relative;
     left: 3.9%;
-    top: 255px;
+    top: 280px;
     height: 30px;
     width: 20px;
 }
@@ -103,8 +89,8 @@ a{
 }
 .right{
     position: relative;
-    left: 94%;
-    top: -945px;
+    left: 94.5%;
+    top: -918px;
     height: 30px;
     width: 20px;
 }
@@ -120,7 +106,7 @@ a{
 }
 
 .line2{
-    height: 15px;
+    height: 5px;
     background-color: #ea676b;
     border: none;
     margin: 0px;
@@ -138,8 +124,8 @@ a{
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
-    top: 13%;
-    left: 3.9%;
+    top: 14%;
+    left: 4.2%;
     margin: 0px;
 
 }
@@ -147,28 +133,52 @@ a{
     position: relative;
     width: 940px;
     height: 57px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 30px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
     left: 3.9%;
-    top: 20%;
+    top: 19.3%;
     margin: 0px;
+    letter-spacing: 0.23px;
 }
 .wrapper{
     width: 940px;
     height: 200px;
     position: relative;
-    top: 33%;
+    top: 29%;
     left: 3.9%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row: 100px;
+    grid-template-rows: 124px;
 }
 .ellips1{
     position: relative;
     left: -11%;
+}
+.ellips2{
+    position: relative;
+    left: -6%;
+}
+.ellips3{
+    position: relative;
+    left: -7%;
+}
+.ellips4{
+    position: relative;
+    left: -8%;
+    padding-bottom: 0px;
+}
+.ellips5{
+    position: relative;
+    left: -9%;
+    padding-bottom: 0px;
+}
+.ellips6{
+    position: relative;
+    left: -7.8%;
+    padding-bottom: 0px;
 }
 .pen{
     position: relative;
@@ -177,7 +187,62 @@ a{
 }
 .d1_h{
     position: relative;
-    left: 25%;
+    left: 25.6%;
+    top: -52%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0%;
+}
+.d2_h{
+    position: relative;
+    left: 28.2%;
+    top: -53%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0%;
+} 
+.d3_h{
+    position: relative;
+    left: 30%;
+    top: -53%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0%;
+} 
+.d4_h{
+    position: relative;
+    left: 26%;
+    top: -44%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0%;
+} 
+.d5_h{
+    position: relative;
+    left: 28%;
+    top: -44%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0%;
+} 
+.d6_h{
+    position: relative;
+    left: 30%;
     top: -44%;
     font-size: 18px;
     line-height: 18px;
@@ -188,7 +253,67 @@ a{
 }
 .d1_p{
     position: relative;
-    left: 25%;
+    left: 25.6%;
+    top: -45%;
+    width: 219px;
+    margin: 0%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.d2_p{
+    position: relative;
+    left: 28.2%;
+    top: -45%;
+    width: 219px;
+    margin: 0%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+} 
+.d3_p{
+    position: relative;
+    left: 30%;
+    top: -45%;
+    width: 219px;
+    margin: 0%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+} 
+.d4_p{
+    position: relative;
+    left: 26%;
+    top: -38%;
+    width: 219px;
+    margin: 0%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+} 
+.d5_p{
+    position: relative;
+    left: 28%;
+    top: -38%;
+    width: 219px;
+    margin: 0%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+} 
+.d6_p{
+    position: relative;
+    left: 30%;
     top: -38%;
     width: 219px;
     margin: 0%;
@@ -200,12 +325,12 @@ a{
 }
 .bulb{
     position: relative;
-    left: 5.9%;
+    left: 7.3%;
     padding-bottom: 3.8%;
 }
 .heart{
     position: relative;
-    left: 4.5%;
+    left: 8.5%;
     padding-bottom: 3.8%;
 }
 .phone{
@@ -215,17 +340,13 @@ a{
 }
 .bubble{
     position: relative;
-    left: 4.9%;
+    left: 5.9%;
     padding-bottom: 4.5%;
 }
 .star{
     position: relative;
-    left: 4.5%;
+    left: 8%;
     padding-bottom: 4.5%;
-}
-.ellips2{
-    position: relative;
-    left: -8%;
 }
 .d1{
     grid-column-start: 1;
