@@ -97,7 +97,7 @@ section{
     width: 1020px;
     height: 734px;
     background-color: #F2F2F2;
-    top: -20px;
+    top: -25px;
     bottom: 0px;
 }
 .bottom_h{
@@ -107,7 +107,7 @@ section{
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
-    top: 66px;
+    top: 70px;
     left: 3.9%;
 }
 .bottom_text{
@@ -119,25 +119,79 @@ section{
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
-    top: 66px;
+    top: 72px;
     left: 3.9%;
     letter-spacing: 0.1px;
 }
 .s_wrapper{
     position: relative;
     width: 950px;
-    top: 95px;
+    top: 101px;
     left: 3.9%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 510px;
-    grid-column-gap: 2px;
+    grid-column-gap: 7px;
 }
+.name{
+    position: relative;
+    top: -1%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+}
+.text{
+    top: -2.6%;
+    position: relative;
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.social{
+    position: relative;
+    left: 0%;
+    top: -0.5%;
+}
+.social div{
+    width: 34px;
+    height: 35px;
+}
+.d_1{
+    position: relative;
+}
+.d_2{
+    position: relative;
+    left: 40px;
+    top: -35px;
+}
+.d_3{
+    position: relative;
+    left: 80px;
+    top: -70px;
+}
+.d_4{
+    position: relative;
+    left: 120px;
+    top: -105px;
+}
+.social div a{
+    display: block;
+    height: 100%;
+}
+.social a:hover{
+    border: 1px solid gray;
+}
+
 .line_2{
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
     border: none;
     margin-bottom: 0px;
-    margin-top: 101px;
+    margin-top: 102px;
 }
