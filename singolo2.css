@@ -1,1 +1,143 @@
+@font-face{
+    font-family: Lato;
+    src: url(assets/9622.ttf);
+}
+body{
+    position: absolute;
+    margin: 0px;
+    top: -20px;
+}
+main{
+    width: 1020px;
+    height: 864px;
+    background-color: #2D303A;
+}
+.head_h{
+    position: relative;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 1000;
+    left: 3.9%;
+    top: 7.8%;
+    margin: 0px;
+}
+.head_text{
+    position: relative;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    left: 3.9%;
+    top: 11.24%;
+    margin: 0px;
+}
 
+nav{
+    position: relative;
+    top: 9.4%;
+    left: 3.9%;
+}
+.n_1, .n_2, .n_3, .n_4{
+    text-decoration: none;
+    border: 1px solid #767e9e;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    padding-right: 6px;
+    margin-right: 6px;
+}
+.n_1:hover{
+    border-color: #dedede;
+    color: #dedede;
+}
+.n_2:hover{
+    border-color: #dedede;
+    color: #dedede;
+}
+.n_3:hover{
+    border-color: #dedede;
+    color: #dedede;
+}
+.n_4:hover{
+    border-color: #dedede;
+    color: #dedede;
+}
+
+.f_wrapper{
+    position: relative;
+    width: 940px;
+    top: 99px;
+    left: 3.9%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+.line_1{
+    height: 5px;
+    background-color: #323746;
+    border: none;
+    margin: 0px;
+    width: 1020px;
+}
+section{
+    position: relative;
+    width: 1020px;
+    height: 734px;
+    background-color: #F2F2F2;
+    top: -20px;
+    bottom: 0px;
+}
+.bottom_h{
+    position: relative;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    top: 66px;
+    left: 3.9%;
+}
+.bottom_text{
+    position: relative;
+    width: 940px;
+    height: 57px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    top: 66px;
+    left: 3.9%;
+    letter-spacing: 0.1px;
+}
+.s_wrapper{
+    position: relative;
+    width: 950px;
+    top: 95px;
+    left: 3.9%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 510px;
+    grid-column-gap: 2px;
+}
+.line_2{
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 0px;
+    margin-top: 101px;
+}
