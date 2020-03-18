@@ -53,20 +53,20 @@ function FuncImagesV(str) {
  function FormInformation(FormId, SubjectId, DescribeId){
     let subject = document.forms[FormId].elements[SubjectId].value
     let desrc = document.forms[FormId].elements[DescribeId].value
+    if((!desrc) && (!subject)){
+        alert(`${"The letter was sent!"}\n${"No subjest"}\n${"No description"}`);
+        return false;
+    }
     if(!subject){
         alert(`${"The letter was sent!"}\n${"No subjest"}\n${"Descripstion: "+desrc}`);
         return false;
     }
     
-    if(desrc=""){
+    if(!desrc){
         alert(`${"The letter was sent!"}\n${"Subject:"+subject}\n${"No description"}`);
         return false;
     }
     
-    if((desrc="") && (!subject)){
-        alert(`${"The letter was sent!"}\n${"No subjest"}\n${"No description"}`);
-        return false;
-    }
-    alert(`${"The letter was sent!"}\n${"Subject: "+subject}\n${"Descripstion: "+desrc}`)
+    alert(`${"The letter was sent!"}\n${"Subject: "+subject}\n${"Description: "+desrc}`)
     return false;
 }
