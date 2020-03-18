@@ -5,31 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <header class="h">
+    <header class="h" id="home">
         <h1 class="header_name">SINGOLO</h1>
         <p class="star_h">*</p>
         <nav class="nav_p">
-            <a href="" class="a1">HOME</a>
-            <a href="" class="a2">SERVICES</a>
-            <a href="" class="a3">PORTFOLIO</a>
-            <a href="" class="a4">ABOUT</a>
-            <a href="" class="a5">CONTACT</a>
+            <a href="#home" class="a1" id="home_m" onclick="menucolor(this.id)">HOME</a>
+            <a href="#services" class="a2" id="services_m" onclick="menucolor(this.id)">SERVICES</a>
+            <a href="#portfolio" class="a3" id="portfolio_m" onclick="menucolor(this.id)">PORTFOLIO</a>
+            <a href="#about" class="a4" id="about_m" onclick="menucolor(this.id)">ABOUT</a>
+            <a href="#contact" class="a5" id="contact_m" onclick="menucolor(this.id)">CONTACT</a>
         </nav>
         <hr class="line1">
     </header>
     
         <section class="slider">
             <div class="left"><a href=""><img src="assets/left.png" alt="left"></a></div>
-            <img class="i_h" src="assets/iPhone Horizontal.png" alt="i_h">
-            <img class="i_v" src="assets/iPhone Vertical.png" alt="i_v">
+            <img class="i_h" src="assets/iPhone Horizontal.png" alt="i_h" id="i_h" onclick="FuncImagesH('on')">
+            <div id="i_h_off" onclick="FuncImagesH('off')"> <img src="assets/blackH.jpg" alt="i_h_off"> </div>
+            <img class="i_v" src="assets/iPhone Vertical.png" alt="i_v" id="i_v" onclick="FuncImagesV('on')">
+            <div id="i_v_off" onclick="FuncImagesV('off')"> <img src="assets/blackV.jpg" alt="i_v_off" > </div>
             <div class="right"><a href=""><img  src="assets/right.png" alt="right"></a></div>
             
         </section>
         <hr class="line2">
-        <section class="serv_block">
+        <section id="services" class="serv_block">
             <h2 class="bl_h">Our Services</h2>
             <p class="t_block">Fusce dapibus, tellus ac cursus commodo, tortor mauris cond mentium.
                 Duis mollis non commodo luctus nisi erat porttitor
@@ -63,32 +66,32 @@
         <hr class="line3">
     
     
-        <section class="sl_1">
+        <section id="portfolio" class="sl_1">
             <h1 class="head_h">Portfolio</h1>
             <p class="head_text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-            <nav class="nav_2">
-                <a class="n_1" href="">All</a>
-                <a class="n_2" href="">Web Design</a>
-                <a class="n_3" href="">Graphic Design</a>
-                <a class="n_4" href="">Artwork</a>
-            </nav>
-            <div class="f_wrapper">
-                <div><img src="assets/1.jpg" alt=""></div>
-                <div><img src="assets/2.jpg" alt=""></div>
-                <div><img src="assets/3.jpg" alt=""></div>
-                <div><img src="assets/4.jpg" alt=""></div>
-                <div><img src="assets/5.jpg" alt=""></div>
-                <div><img src="assets/6.jpg" alt=""></div>
-                <div><img src="assets/7.jpg" alt=""></div>
-                <div><img src="assets/8.jpg" alt=""></div>
-                <div><img src="assets/9.jpg" alt=""></div>
-                <div><img src="assets/10.jpg" alt=""></div>
-                <div><img src="assets/11.jpg" alt=""></div>
-                <div><img src="assets/12.jpg" alt=""></div>
+            <ul class="nav_2">
+                <li class="n_1" id="All" onclick="shuffleImages(this.id)">All</li>
+                <li class="n_2" id="Web Design" onclick="shuffleImages(this.id)">Web Design</li>
+                <li class="n_3" id="Graphic Design" onclick="shuffleImages(this.id)">Graphic Design</li>
+                <li class="n_4" id="Artwork" onclick="shuffleImages(this.id)">Artwork</li>
+            </ul>
+            <div class="f_wrapper" id="wrap">
+                <div><img src="assets/1.jpg" alt="" id="i_1" onclick="borderSetter(this.id)" ></div>
+                <div><img src="assets/2.jpg" alt="" id="i_2" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/3.jpg" alt="" id="i_3" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/4.jpg" alt="" id="i_4" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/5.jpg" alt="" id="i_5" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/6.jpg" alt="" id="i_6" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/7.jpg" alt="" id="i_7" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/8.jpg" alt="" id="i_8" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/9.jpg" alt="" id="i_9" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/10.jpg" alt="" id="i_10" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/11.jpg" alt="" id="i_11" onclick="borderSetter(this.id)"></div>
+                <div><img src="assets/12.jpg" alt="" id="i_12" onclick="borderSetter(this.id)"></div>
             </div>
         </section>
         <hr class="line_1">
-        <section class="s_1">
+        <section id="about" class="s_1">
             <h2 class="bottom_h">About Us</h2>
             <p class="bottom_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
                  Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -131,18 +134,18 @@
             </div>
             <hr class="line_2">
         </section>
-        <section class="sect_5">
+        <section id="contact" class="sect_5">
             <h1 class="head_h_3">Get a Quote</h1>
             <p class="text_h_3">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, 
                 eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <h2 class="cont">Contact Information</h2>
             <p class="text_4">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
                 Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p> 
-            <form action="">
-                <input class="name_r" type="text" required placeholder="Name(Required)">
-                <input class="email_r" type="email" required placeholder="Email(Required)">
-                <input class="subj" type="text" placeholder="Subject">
-                <textarea class="descr" type="text" placeholder="Describe your project in detail..."></textarea>
+            <form action="" id="form" onsubmit="FormInformation('form', 'subj', 'descr'); return false">
+                <input class="name_r" id="name_r" type="text" required placeholder="Name(Required)">
+                <input class="email_r" id="email_r" type="email" required placeholder="Email(Required)">
+                <input class="subj" id="subj" type="text" placeholder="Subject">
+                <textarea class="descr" type="text" placeholder="Describe your project in detail..." id="descr"></textarea>
                 <input class="subm" type="submit" value="Submit">
             </form>
             <hr class="line_4"> 
