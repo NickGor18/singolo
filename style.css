@@ -94,33 +94,36 @@ body{
     top: 212px;
     display: none;
 }
+#slide_2{
+    position: relative;
+    top: 2px;
+    display: none;
+}
 .left{
-    position: relative;
-    left: 3.9%;
-    top: 280px;
+    position: absolute;
+    left: 3.5%;
+    top: 376px;
     height: 30px;
     width: 20px;
+    z-index: 2;
 }
-.left a{
-    display: block;
-    height: 100%;
-}
+
 .right{
-    position: relative;
-    left: 94.5%;
-    top: 250px;
+    position: absolute;
+    left: 71.5%;
+    top: 376px;
     height: 30px;
     width: 20px;
+    z-index: 2;
 }
-.right a{
-    display: block;
-    height: 100%;
-}
+
 .right:hover{
     background-color:#e2443c;
+    cursor: pointer;
 }
 .left:hover{
     background-color: #e2443c;
+    cursor: pointer;
 }
 
 .line2{
