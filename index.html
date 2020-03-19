@@ -23,13 +23,17 @@
     </header>
     
         <section class="slider">
-            <div class="left"><a href=""><img src="assets/left.png" alt="left"></a></div>
+            <img src="assets/slide_2.png" alt="" class="slide" id="slide_2">
+            
+            <div class="left" onclick="minusSlide()"><img src="assets/left.png" alt="left"></div>
+            <div class="slide">
             <img class="i_h" src="assets/iPhone Horizontal.png" alt="i_h" id="i_h" onclick="FuncImagesH('on')">
             <div id="i_h_off" onclick="FuncImagesH('off')"> <img src="assets/blackH.jpg" alt="i_h_off"> </div>
             <img class="i_v" src="assets/iPhone Vertical.png" alt="i_v" id="i_v" onclick="FuncImagesV('on')">
             <div id="i_v_off" onclick="FuncImagesV('off')"> <img src="assets/blackV.jpg" alt="i_v_off" > </div>
-            <div class="right"><a href=""><img  src="assets/right.png" alt="right"></a></div>
-            
+            </div>
+            <div class="right" onclick="plusSlide()"><img  src="assets/right.png" alt="right"></div>
+        
         </section>
         <hr class="line2">
         <section id="services" class="serv_block">
