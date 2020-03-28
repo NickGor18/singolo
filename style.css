@@ -3,7 +3,12 @@
     src: url(assets/9622.ttf);
 }
 body{
+    position: absolute;
     margin: 0px;
+}
+.cent{
+    width: 100%;
+    margin: 0 auto;
 }
 .h{
     width: 1020px;
@@ -32,12 +37,20 @@ body{
     font-weight: 700;
 }
 .nav_p{
-    position: relative;
-    left: 59.6%;
+    
     margin: 0%;
-    bottom: 23%;
 }
-
+.hamburger-menu{
+    position: relative;
+    bottom: 25%;
+    left: 54.6%;
+}
+#menu__toggle{
+    display: none;
+}
+.nav_p ul li{
+    display: inline;
+}
 .a1, .a2, .a3, .a4, .a5 {
     
     text-decoration: none;
@@ -67,42 +80,63 @@ body{
     background-color: #f06c64;
 }
 .i_h{
-    position: relative;
-    left: 35.2%;
-    top: 40px;
+    position: absolute;
+    left: 35.3%;
+    top: 165px;
+}
+#i_h:hover{
+    cursor: pointer;
+}
+#i_h_off{
+    position: absolute;
+    left: 47.45%;
+    top: 284px;
+    display: none;
 }
 .i_v{
+    position: absolute;
+    left: 10.8%;
+    top: 76px;
+}
+#i_v:hover{
+    cursor: pointer;
+}
+#i_v_off{
+    position: absolute;
+    left: 12.4%;
+    top: 211px;
+    display: none;
+}
+#slide_2{
     position: relative;
-    left: 10.9%;
-    top: -631px;
+    top: 2px;
+    display: none;
 }
 .left{
-    position: relative;
-    left: 3.9%;
-    top: 280px;
+    position: absolute;
+    left: 3.5%;
+    top: 376px;
     height: 30px;
     width: 20px;
+    z-index: 2;
 }
-.left a{
-    display: block;
-    height: 100%;
-}
+
 .right{
-    position: relative;
+    position: absolute;
     left: 94.5%;
-    top: -918px;
+    top: 376px;
     height: 30px;
     width: 20px;
+    z-index: 2;
 }
-.right a{
-    display: block;
-    height: 100%;
-}
+
 .right:hover{
     background-color:#e2443c;
+    cursor: pointer;
 }
 .left:hover{
     background-color: #e2443c;
+    cursor: pointer;
 }
 
 .line2{
@@ -425,9 +459,11 @@ body{
 .nav_2{
     position: relative;
     top: 9.4%;
-    left: 3.9%;
+    left: 0.1%;
 }
+
 .n_1, .n_2, .n_3, .n_4{
+    display: inline-block;
     text-decoration: none;
     border: 1px solid #767e9e;
     border-radius: 4px;
@@ -445,18 +481,22 @@ body{
 .n_1:hover{
     border-color: #dedede;
     color: #dedede;
+    cursor: pointer;
 }
 .n_2:hover{
     border-color: #dedede;
     color: #dedede;
+    cursor: pointer;
 }
 .n_3:hover{
     border-color: #dedede;
     color: #dedede;
+    cursor: pointer;
 }
 .n_4:hover{
     border-color: #dedede;
     color: #dedede;
+    cursor: pointer;
 }
 
 .f_wrapper{
@@ -640,7 +680,7 @@ form{
     border: 1px solid red;
 }
 .name_r:valid{
-    border: 1px solid greenyellow;
+    border: 1px solid #f06c64;
 }
 .email_r{
     position: relative;
@@ -668,7 +708,7 @@ form{
     border: 1px solid red;
 }
 .email_r:valid{
-    border: 1px solid greenyellow;
+    border: 1px solid #f06c64;
 }
 .subj{
     position: relative;
