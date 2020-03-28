@@ -48,7 +48,7 @@ body{
 #menu__toggle{
     display: none;
 }
-.nav_p ul li{
+.nav_p li{
     display: inline;
 }
 .a1, .a2, .a3, .a4, .a5 {
